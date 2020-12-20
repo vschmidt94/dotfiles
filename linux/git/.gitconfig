@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Vaughan Schmidt
+	email = vaughan.schmidt@intel.com
+[diff]
+    tool = meld
+[difftool "meld"]
+  trustExitCode = true
+  cmd = open -W -a Meld --args \"$LOCAL\" \"$PWD/$REMOTE\"
+[merge]
+  tool = meld
+[mergetool]
+  prompt = false
+[mergetool "meld"]
+  trustExitCode = true
+  cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+[core]
+	pager = less -F -X
