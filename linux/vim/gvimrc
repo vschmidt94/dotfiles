@@ -18,7 +18,7 @@ elseif has("gui_macvim")
     set guifont=IosevkaNerdFontComplete-:h14
 else
     if has("unix")
-        set guifont=Iosevka\ 14
+        set guifont=Iosevka\ Term\ 14
     endif
 endif
 

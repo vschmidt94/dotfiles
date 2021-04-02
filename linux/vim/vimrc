@@ -556,10 +556,10 @@ let g:tagbar_type_jam = {
 
 " Run multiple wikis if desired
 let g:vimwiki_list = [
-                        \{'path': '~/git/vimwiki-intel/vs_intel.wiki',
+                        \{'path': '~/git/personal/vimwiki/intel/vs_intel.wiki',
                         \ 'syntax': 'markdown',
                         \ 'ext': '.md'},
-                        \{'path': '~/git/vimwiki-personal/vs_personal.wiki',
+                        \{'path': '~/git/personal/vimwiki/personal/vs_personal.wiki',
                         \ 'syntax': 'markdown',
                         \ 'ext': '.md'}
                     \]
